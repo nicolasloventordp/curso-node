@@ -8,7 +8,3 @@ const products = [
 export const getAllProducts = () => {
     return products;
 }
-
-export const getProductById = (id) => {
-    return products.filter((p) => p.id == id );
-}
